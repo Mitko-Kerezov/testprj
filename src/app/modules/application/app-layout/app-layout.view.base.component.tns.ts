@@ -34,6 +34,7 @@ export class AppLayoutViewBaseComponent implements OnInit, AfterViewInit, OnDest
                 {
                     outlets: {
                         application_home_tab: ['application_home'],
+                        blk_other_tab: ['blk_other'],
                         'blk_blk-view_tab': ['blk_blk-view']
                     }
                 }

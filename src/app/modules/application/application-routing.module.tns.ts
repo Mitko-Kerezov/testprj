@@ -29,6 +29,12 @@ const routes: Routes = [
                         component: HomeViewComponent
                     },
                     {
+                        path: 'blk_other',
+                        outlet: 'blk_other_tab',
+                        component: NSEmptyOutletComponent,
+                        loadChildren: './../blk/other/other.view.module#OtherViewModule'
+                    },
+                    {
                         path: 'blk_blk-view',
                         outlet: 'blk_blk-view_tab',
                         component: NSEmptyOutletComponent,

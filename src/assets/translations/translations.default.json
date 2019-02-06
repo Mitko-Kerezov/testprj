@@ -99,6 +99,9 @@
       "views": {
         "blkView": {
           "label": "blkView"
+        },
+        "other": {
+          "label": "other"
         }
       }
     }
