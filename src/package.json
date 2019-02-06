@@ -1,0 +1,17 @@
+{
+  "android": {
+    "v8Flags": "--expose_gc"
+  },
+  "main": "main.js",
+  "name": "migration-ng",
+  "version": "4.1.0",
+  "pluginsData": {
+    "kinvey-nativescript-sdk": {
+      "config": {
+        "appKey": "kid_ryeOJqXzV",
+        "appSecret": "85aedc5eb9e0464e8212c440d833030d",
+        "instanceId": ""
+      }
+    }
+  }
+}
