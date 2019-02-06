@@ -77,7 +77,7 @@
     "nativescript-ui-chart": "3.10.0",
     "nativescript-ui-dataform": "3.9.0",
     "nativescript-ui-gauge": "3.7.1",
-    "nativescript-ui-listview": "4.0.0",
+    "nativescript-ui-listview": "5.0.1",
     "nativescript-ui-sidedrawer": "5.0.0",
     "oidc-client": "^1.4.1",
     "reflect-metadata": "~0.1.8",
