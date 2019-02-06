@@ -7,6 +7,7 @@ import { Routes } from '@angular/router';
 import { NativeScriptRouterModule, NSEmptyOutletComponent } from 'nativescript-angular/router';
 import { BlkModuleComponent } from './blk.module.component';
 import { BlkViewViewComponent } from './blk-view/blk-view.view.component';
+import { OtherViewComponent } from './other/other.view.component';
 import { AuthenticationGuardService } from './../../core/auth/authentication-guard.service';
 
 const routes: Routes = [
@@ -19,6 +20,12 @@ const routes: Routes = [
                 canActivate: [AuthenticationGuardService],
                 canActivateChild: [AuthenticationGuardService],
                 component: BlkViewViewComponent
+            },
+            {
+                path: 'other',
+                canActivate: [AuthenticationGuardService],
+                canActivateChild: [AuthenticationGuardService],
+                component: OtherViewComponent
             }
         ]
     }
